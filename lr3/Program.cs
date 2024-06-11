@@ -47,7 +47,7 @@ namespace lr3
                         Console.Write("Радиус R = ");
                         temp = Console.ReadLine();
                         Rad = Convert.ToDouble(temp);
-                        Console.WriteLine("Площадь круга = " + 4 * Math.Atan(1) * Math.Pow(Rad, 2));
+                        Console.WriteLine("Площадь круга = " + Math.PI * Math.Pow(Rad, 2));
                         break;
 
 
